@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+    // colors
+    --red: 0, 78%, 62%;
+    --cyan: 180, 62%, 55%;
+    --orange: 34, 97%, 64%;
+    --blue: 212, 86%, 64%;
+    --very-dark-blue: 234, 12%, 34%;
+    --graish-blue: 229, 6%, 66%;
+    --very-light-gray: 0, 0%, 98%;
+
+    ////////////////////
+    // text colors /////
+    ////////////////////
+    --text-fill: var(--very-dark-blue);
+    --text-muted: var(--graish-blue);
+
+    /////////////////////////////
+    // background colors /////////
+    /////////////////////////////
+    --bg-fill: var(--very-light-gray);
+
+    /////////////////////////////
+    // border colors /////////////
+    /////////////////////////////
+    --border-red: var(--red);
+    --border-cyan: var(--cyan);
+    --border-orange: var(--orange);
+    --border-blue: var(--blue);
+  }
+}
