@@ -24,7 +24,7 @@ import { Feature } from '../models/feature.model';
     </header>
 
     <!-- features -->
-    <main class="container mt-20">
+    <main class="container mt-20 mb-28">
       <lbk-feature-card-grid
         [features]="features"
         class="block w-full"
