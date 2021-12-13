@@ -30,7 +30,7 @@ module.exports = {
     extend: {
       screens: {
         tablet: "768px",
-        desktop: "1024px",
+        desktop: "1200px",
       },
       // create custom fonts here
       fontFamily: {
@@ -66,7 +66,7 @@ module.exports = {
         ".container": {
           maxWidth: "100%",
           "@screen desktop": {
-            maxWidth: "1024px",
+            maxWidth: "1200px",
           },
         },
       });

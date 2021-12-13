@@ -5,7 +5,7 @@ import { Feature } from '../models/feature.model';
   selector: 'lbk-feature-card-grid',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <section class="grid gap-10 features desktop:gap-6">
+    <section class="grid gap-10 features desktop:gap-6 ">
       <ng-container *ngFor="let feature of features">
         <lbk-feature-card
           class="block w-full"
